@@ -1,5 +1,6 @@
 {
-  "version": "1.0.0",
+ "name": "brain-games",
+ "version": "1.0.0",
   "type": "module",
   "description": "[![Actions Status](https://github.com/zukmutant/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/zukmutant/frontend-project-lvl1/actions)",
   "main": "index.js",
