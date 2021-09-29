@@ -1,7 +1,7 @@
-import readlineSync from 'readline-sync';
+import readlineSync from 'readline-sync'
 
+var name = readlineSync.question ('May I have your name? ');
 
-import { name } from '../src/cli.js';
 console.log('Welcome to the Brain Games!');
 console.log(`Hello, ${name} `);
 console.log('Answer "yes" if the number is even, otherwise answer "no".')
@@ -21,7 +21,7 @@ while (n < 3); {
     if (userAnswer !== 'yes' || userAnswer !== 'no') {
         console.log(`${userAnswer} is wrong answer ;(.`)
         console.log(`Let's try again, ${name}!`);
-        return;
+
     }
 
     if (numberForUser % 2 === 0 && userAnswer === 'yes') {
@@ -34,11 +34,11 @@ while (n < 3); {
         if (userAnswer === 'yes') {
             console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'no'`)
             console.log(`Let's try again, ${name}!`);
-            return;
+ 
         } else if (userAnswer === 'no') {
             console.log(`${userAnswer} is wrong answer ;(. Correct answer was 'Yes'`)
             console.log(`Let's try again, ${name}!`);
-            return;
+
 
         }
     }
